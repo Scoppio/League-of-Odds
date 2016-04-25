@@ -1,61 +1,33 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Files that must not be commited
+# - Local html files
+*.html
+*.htm
 
-# C extensions
-*.so
+#Excel files used only for visualization
+*.xlsx
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+#folders to ignore
+backup/
+.*/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Folder config file
+Desktop.ini
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*,cover
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Translations
-*.mo
-*.pot
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
+# Windows shortcuts
+*.lnk
 
 # =========================
 # Operating System Files
@@ -85,25 +57,3 @@ target/
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
